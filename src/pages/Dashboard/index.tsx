@@ -5,6 +5,7 @@ import { Container } from './styles';
 import Header from '../../components/Header';
 import Info from '../../components/Info';
 import Instructions from '../../components/Instructions';
+import Navigation from '../../components/Navigation';
 
 const Dashboard: FunctionComponent = () => {
   return (
@@ -12,6 +13,7 @@ const Dashboard: FunctionComponent = () => {
       <Header />
       <Info />
       <Instructions />
+      <Navigation />
     </Container>
   );
 };
