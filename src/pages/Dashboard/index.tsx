@@ -6,6 +6,8 @@ import Header from '../../components/Header';
 import Info from '../../components/Info';
 import Instructions from '../../components/Instructions';
 import Navigation from '../../components/Navigation';
+import Editor from '../../components/Editor';
+import Footer from '../../components/Footer';
 
 const Dashboard: FunctionComponent = () => {
   return (
@@ -14,6 +16,8 @@ const Dashboard: FunctionComponent = () => {
       <Info />
       <Instructions />
       <Navigation />
+      <Editor />
+      <Footer />
     </Container>
   );
 };
