@@ -7,7 +7,7 @@ export const Container = styled.div`
   grid-template-columns: 320px auto;
 
   grid-template-areas:
-    'Header Header' 'Info Navigation' 'Description Code'
+    'Header Header' 'Info Navigation' 'Instructions Code'
     'Instructions Code' 'Instructions Footer';
 
   height: 100vh;

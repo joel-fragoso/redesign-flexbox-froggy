@@ -1,8 +1,9 @@
 import { createGlobalStyle } from 'styled-components';
+import { tint } from 'polished';
 
 export default createGlobalStyle`
   :root {
-    --primary: #0096D2;
+    --primary: #0096d2;
     --secondary: #162125;
 
     --background: #141414;
@@ -42,5 +43,14 @@ export default createGlobalStyle`
 
   button {
     cursor: pointer;
+  }
+
+  .code {
+    font-family: var(--font-family-monospace);
+    font-size: 14px;
+    background: ${tint(0.8, '#0096d2')};
+
+    padding: 2px 4px;
+    border-radius: 2px;
   }
 `;
