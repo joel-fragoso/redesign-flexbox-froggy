@@ -11,18 +11,19 @@ require('codemirror/mode/css/css.js');
 const Editor: FunctionComponent = () => {
   return (
     <Container
-      value="#root { margin: 20px; }"
+      value={`/* CSS File */ \n\n #root { \n\t display: flex; \n } \n`}
       options={{
         mode: 'css',
         theme: 'dracula',
         lineNumbers: true,
+        tabSize: 2,
         matchBrackets: true,
         autoCloseBrackets: true,
       }}
       onChange={(editor, data, value) => {
-        // console.log(editor);
+        console.log(editor);
         // console.log(data);
-        console.log(value);
+        // console.log(value);
       }}
     />
   );
