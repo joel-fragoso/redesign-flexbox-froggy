@@ -11,7 +11,7 @@ require('codemirror/mode/css/css.js');
 const Editor: FunctionComponent = () => {
   return (
     <Container
-      value={`/* CSS File */ \n\n #root { \n\t display: flex; \n } \n`}
+      value={`/* CSS File */\n\n#root {\n\tdisplay: flex;\n}\n`}
       options={{
         mode: 'css',
         theme: 'dracula',
