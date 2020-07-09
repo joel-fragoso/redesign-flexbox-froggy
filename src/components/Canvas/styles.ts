@@ -23,7 +23,11 @@ export const Container = styled.div`
 
     padding: 10px;
 
-    background: #ff9000;
+    background: #1f5768;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     img {
       width: 56.6666px;
