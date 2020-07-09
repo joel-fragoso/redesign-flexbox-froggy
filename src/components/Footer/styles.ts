@@ -20,8 +20,15 @@ export const Container = styled.div`
     background: var(--primary);
     border-radius: 5px;
 
+    display: flex;
+    align-items: center;
+
     font-size: 16px;
     font-weight: bold;
     color: var(--on-primary);
+
+    svg {
+      margin-left: 8px;
+    }
   }
 `;
