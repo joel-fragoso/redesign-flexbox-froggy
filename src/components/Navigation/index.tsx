@@ -5,9 +5,7 @@ import { Container } from './styles';
 const Navigation: FunctionComponent = () => {
   return (
     <Container>
-      <li className="active">
-        <a href="teste">stylesheet.css</a>
-      </li>
+      <li className="active">stylesheet.css</li>
     </Container>
   );
 };

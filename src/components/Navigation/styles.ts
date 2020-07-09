@@ -20,16 +20,14 @@ export const Container = styled.ul`
 
     height: 100%;
 
+    font-size: 14px;
+    color: var(--on-secondary);
+    text-decoration: none;
+
+    padding: 0 16px;
+
     &.active {
       background: ${tint(0.1, '#162125')};
-    }
-
-    a {
-      font-size: 14px;
-      color: var(--on-secondary);
-      text-decoration: none;
-
-      padding: 0 16px;
     }
   }
 `;
