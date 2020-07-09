@@ -4,6 +4,8 @@ import { tint } from 'polished';
 export const Container = styled.div`
   grid-area: Instructions;
 
+  background: ${tint(0.9, '#0096d2')};
+
   height: calc(100vh - 98px);
 
   overflow-y: scroll;
