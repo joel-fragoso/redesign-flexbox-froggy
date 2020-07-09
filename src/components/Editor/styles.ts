@@ -1,12 +1,20 @@
 import styled from 'styled-components';
 import { tint } from 'polished';
 
-export const Container = styled.div`
+import { UnControlled as CodeMirror } from 'react-codemirror2';
+
+export const Container = styled(CodeMirror)`
   grid-area: Editor;
 
-  height: calc(100vh - 164px);
+  .CodeMirror {
+    height: calc(100vh - 164px);
+  }
 
-  display: flex;
+  .CodeMirror,
+  .CodeMirror * {
+    font-family: var(--font-family-monospace);
+    font-size: 14px;
 
-  background: ${tint(0.1, '#162125')};
+    background: ${tint(0.1, '#162125')};
+  }
 `;
